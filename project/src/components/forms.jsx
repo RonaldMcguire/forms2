@@ -16,6 +16,11 @@ class forms extends Component{
       }
     }
     
+    BreedChange = (event) => {
+    
+      this.setState({
+        breed: event.target.value
+      })
+    }
     
     export default forms;
-    test this
