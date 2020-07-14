@@ -5,7 +5,7 @@ class forms extends Component{
 
 
 
-    NameChange = (event) => {
+    nameChange = (event) => {
 
         this.setState({
       
@@ -25,6 +25,21 @@ class forms extends Component{
 
     render(){
       return(
+        <div>
+        <h1> Puppy Palace</h1>
+        <form className = "dog-name">
+          <label>dogName</label>
+          <input
+          type = "dogName"
+          placeholder="Name of Dog"
+          value={this.state.name}
+          onChange={this.nameChange}
+    
+          />
+          </form>
+          </div>
+      )
+    }
 
   
     
