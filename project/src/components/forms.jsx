@@ -63,8 +63,15 @@ class forms extends Component{
               <input 
                 type='text'
                 placeholder='Female'
-                
+              
                 onChange={this.onGenderChange} />
+
+              <label>Birthday</label>
+              <input 
+                type='number'
+                placeholder="DD/MM/YY"
+                onChange={this.onAgeChange}
+              />
 
 
 
