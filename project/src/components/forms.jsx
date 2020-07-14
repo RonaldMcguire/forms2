@@ -31,7 +31,7 @@ class forms extends Component{
           <input
           type = "dogName"
           placeholder="enter name"
-          value={this.state.name}
+          
           onChange={this.nameChange}
     
           />
@@ -39,7 +39,7 @@ class forms extends Component{
           <input
           type = "Breed"
           placeholder="Breed"
-          value={this.state.breed}
+          
           onChange={this.breedName}
           />
         </form>

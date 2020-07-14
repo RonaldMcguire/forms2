@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Forms from './Component/forms'
+import Forms from './components/forms'
 import './App.css';
 
 
