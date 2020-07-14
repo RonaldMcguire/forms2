@@ -13,8 +13,9 @@ class forms extends Component{
       
         })
       
-      }f
+      }
     }
     
     
     export default forms;
+    test this
