@@ -36,7 +36,7 @@ class forms extends Component{
     render(){
       return(
         <div>
-        <h1> Name of Dog </h1>
+        <h1> Pawtastic </h1>
         <form className = "dog-name">
           <label>DogName</label>
           <input
@@ -54,12 +54,24 @@ class forms extends Component{
           onChange={this.breedName}
           />
 
+
 <input type="file" name="myImage" accept="image/*" />
+<br></br>
+<br></br>
+
+              <label>Gender</label>
+              <input 
+                type='text'
+                placeholder='Female'
+                
+                onChange={this.onGenderChange} />
+
 
 
 
         </form>
         </div>
+        
       )
     }
     
