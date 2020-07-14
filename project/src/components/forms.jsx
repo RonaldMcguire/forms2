@@ -12,11 +12,14 @@ class forms extends Component{
       })
     
     }
+    GenderChange = (event) => 
     
     breedName = (event) => {
     
       this.setState({
+
         breed: event.target.value
+
       })
     }
 
@@ -42,6 +45,11 @@ class forms extends Component{
           
           onChange={this.breedName}
           />
+
+<input type="file" name="myImage" accept="image/*" />
+
+
+
         </form>
         </div>
       )
