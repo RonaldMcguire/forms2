@@ -12,7 +12,15 @@ class forms extends Component{
       })
     
     }
-    GenderChange = (event) => 
+    GenderChange = (event) => {
+
+      this.setState({
+
+        gender: event.target.value
+
+      })
+
+    }
     
     breedName = (event) => {
     
