@@ -52,7 +52,7 @@ class forms extends Component{
       this.setState({
         formComplete: true
       })
-      alert(`Your form has been submitted! We will contact you shortly to schedule a consultation for ${this.state.name}!`)
+      alert(`Your form has been submitted!`)
     }
     
     
@@ -103,6 +103,12 @@ class forms extends Component{
                 onChange={this.surg}
                 
               />
+
+                <button
+                className="btn btn-primary btn-sm m-2"
+                type='submit'
+                onClick={this.submitForm}
+                >Submit</button>
 
 
 
