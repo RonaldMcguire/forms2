@@ -58,7 +58,7 @@ class forms extends Component{
     
     render(){
       return(
-        <div>
+        <div className='right-div'>
         <h1> Pawtastic </h1>
         <form className = "dog-name">
           <label>DogName</label>
