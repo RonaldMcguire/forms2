@@ -60,5 +60,10 @@
 
 .dog-name {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  padding: 20px;
+}
 
 
