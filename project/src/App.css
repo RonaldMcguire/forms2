@@ -45,3 +45,12 @@
   margin-bottom: 10px;
   border-bottom: 1px solid black;
 }
+
+
+.dog-name > button {
+  width: 100px;
+  border-radius: 1px;
+  padding: 7px;
+}
+
+

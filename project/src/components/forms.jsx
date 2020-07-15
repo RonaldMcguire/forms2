@@ -78,7 +78,7 @@ class forms extends Component{
           />
 
 
-<input type="file" name="myImage" accept="image/*" />
+<input type="file" name="myImage" accept="image/*" className="btn btn-primary btn-sm m-2"/>
 <br></br>
 <br></br>
 
