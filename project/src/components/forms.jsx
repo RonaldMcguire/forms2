@@ -30,7 +30,30 @@ class forms extends Component{
 
       })
     }
+    birthday = (event) => {
+    
+      this.setState({
 
+        birthday: event.target.value
+
+      })
+    }
+
+    surg = (event) => {
+    
+      this.setState({
+
+        surg: event.target.value
+
+      })
+    }
+    submitForm = (event) => {
+      event.preventDefault()
+      this.setState({
+        formComplete: true
+      })
+      alert(`Your form has been submitted! We will contact you shortly to schedule a consultation for ${this.state.name}!`)
+    }
     
     
     render(){
@@ -64,19 +87,20 @@ class forms extends Component{
                 type='text'
                 placeholder='Female or male'
               
-                onChange={this.onGenderChange} />
+                onChange={this.GenderChange} />
 
               <label>Birthday</label>
               <input 
                 type='number'
                 placeholder="DD/MM/YY"
-                
+                onChange={this.birthday}
               />
 
 <label>Spayed or Neutered</label>
               <input 
                 type='text'
                 placeholder="Spayed or Neutered"
+                onChange={this.surg}
                 
               />
 
