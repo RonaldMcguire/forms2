@@ -103,7 +103,9 @@ class forms extends Component{
                 onChange={this.surg}
                 
               />
-
+<br></br>
+<br></br>
+<br></br>
                 <button
                 className="btn btn-primary btn-sm m-2"
                 type='submit'
