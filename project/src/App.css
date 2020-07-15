@@ -54,3 +54,8 @@
 }
 
 
+.dog-name > button:hover {
+  background-color:  green;
+}
+
+
