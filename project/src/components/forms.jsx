@@ -62,7 +62,7 @@ class forms extends Component{
               <label>Gender</label>
               <input 
                 type='text'
-                placeholder='Female'
+                placeholder='Female or male'
               
                 onChange={this.onGenderChange} />
 
@@ -70,9 +70,15 @@ class forms extends Component{
               <input 
                 type='number'
                 placeholder="DD/MM/YY"
-                onChange={this.onAgeChange}
+                
               />
 
+<label>Spayed or Neutered</label>
+              <input 
+                type='text'
+                placeholder="Spayed or Neutered"
+                
+              />
 
 
 
