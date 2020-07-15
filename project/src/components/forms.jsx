@@ -60,7 +60,7 @@ class forms extends Component{
       return(
         <div>
         <h1> Pawtastic </h1>
-        <h2></h2>
+        <h2>we love all our pets we take care of and would love to take care of yours</h2>
         <h2>please fill out the form to make an appointment</h2>
         <form className = "dog-name">
           <label>DogName</label>
